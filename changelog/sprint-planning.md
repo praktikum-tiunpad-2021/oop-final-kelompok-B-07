@@ -1,5 +1,5 @@
 # Sprint Planning 
-| dd/mm/yyyy
+| 21/11/2021
 
 ### Team (Insert your name)
 | NPM           | Name        |
@@ -12,18 +12,18 @@
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
 | 1.1 | Make window |  | 
-| 2.2 | Create 5 block snake |  | 
-| 3.3 | Create snake movement | | 
-| 4.4 | Generate random apple | |
-| 5.5 | Increase snake length when eating apple | |
-| 6.6 | Game over condition | |
-| 7.7 | Highscore system | | 
+| 1.2 | Create 5 block snake |  | 
+| 2.1 | Create snake movement | | 
+| 2.2 | Generate random apple | |
+| 3.1 | Increase snake length when eating apple | |
+| 3.2 | Game over condition | |
+| 4.1 | Highscore system | | 
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
 | 1.1 | Make window | Nabil | 
-| 2.2 | Create 5 block snake | Nabil | 
+| 1.2 | Create 5 block snake | Nabil | 
 
 ## Retrospective 
 
