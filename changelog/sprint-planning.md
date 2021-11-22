@@ -11,7 +11,7 @@
 ## Sprint Backlog Keseluruhan 
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 1.1 | Make window |  | 
+| 1.1 | Make a window |  | 
 | 1.2 | Create 5 block snake |  | 
 | 2.1 | Create snake movement | | 
 | 2.2 | Generate random apple | |
