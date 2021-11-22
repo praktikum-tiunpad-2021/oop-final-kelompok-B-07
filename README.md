@@ -1,4 +1,4 @@
-# Project Name
+# Snake Game
 
 This repository is a final project (Java GUI) from Object-Oriented Programming Class, Teknik Informatika Universitas Padjadjaran. 
 
@@ -9,9 +9,9 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 ## Credits
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810200010  | Rizky Mahardika    |
+| 140810200046  | Nabil Fikri    |
+| 140810200066  | Muthia Azzahra |
 
 ## Change log
 - **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
