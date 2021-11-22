@@ -10,7 +10,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810200010  | Rizky Mahardika    |
-| 140810200046  | Nabil Fikri    |
+| 140810200046  | M Nabil Fikri    |
 | 140810200066  | Muthia Azzahra |
 
 ## Change log
