@@ -22,7 +22,7 @@
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 1.1 | Make window | Nabil | 
+| 1.1 | Make a window | Nabil | 
 | 1.2 | Create 5 block snake | Nabil | 
 
 ## Retrospective 
