@@ -11,14 +11,14 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 2             | 2             |
 
 ## Sprint 1 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.1 | Preparing the x | Jane Doe | DONE |
-| 1.2 | Make the x | John Doe | FAILED |
+| 1.1 | Make a window | Nabil | DONE |
+| 1.2 | Creating 5 block snake | Nabil | Done |
 
 ## Retrospective 
 
