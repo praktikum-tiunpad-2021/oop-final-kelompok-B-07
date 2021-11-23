@@ -20,9 +20,9 @@
 | 1.1 | Make a window | Nabil | DONE |
 | 1.2 | Creating 5 block snake | Nabil | Done |
 
-## Retrospective 
+## Retrospective
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. 
 
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
