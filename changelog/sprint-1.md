@@ -18,7 +18,9 @@
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
 | 1.1 | Make a window | Nabil | DONE |
+| 1.1 | Make a window | Muthia | Done |
 | 1.2 | Creating 5 block snake | Nabil | Done |
+| 1.2 | Creating 5 block snake | Mahardika | Done |
 
 ## Retrospective
 
