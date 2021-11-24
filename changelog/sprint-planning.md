@@ -12,15 +12,15 @@
 
 ## Sprint Backlog Keseluruhan
 
-| ID  | Title/Desc                              | Asignee |
-| --- | --------------------------------------- | ------- |
-| 1.1 | Make a window                           |         |
-| 1.2 | Create 5 block snake                    |         |
-| 2.1 | Create snake movement                   |         |
-| 2.2 | Generate random apple                   |         |
-| 3.1 | Increase snake length when eating apple |         |
-| 3.2 | Game over condition                     |         |
-| 4.1 | Highscore system                        |         |
+| ID  | Title/Desc                              | Asignee   |
+| --- | --------------------------------------- | --------- |
+| 1.1 | Make a window                           | Nabil     |
+| 1.2 | Create 5 block snake                    | Mahardika |
+| 2.1 | Create snake movement                   |           |
+| 2.2 | Generate random apple                   |           |
+| 3.1 | Increase snake length when eating apple |           |
+| 3.2 | Game over condition                     |           |
+| 4.1 | Highscore system                        |           |
 
 ## Sprint Backlog Plan (Sprint 1)
 
