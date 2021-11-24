@@ -6,7 +6,8 @@ import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 
 public class Field extends Pane{
-    private int w, h;
+    private int w;
+    private int h;
 
     ArrayList<Block> blocks = new ArrayList<Block>();
     Snake s;
@@ -15,7 +16,7 @@ public class Field extends Pane{
         w = width;
         h = height;
 
-        setMinSize(w * SnakeGame.block_size, h * SnakeGame.block_size);
+        setMinSize(w * Block.blockSize, h * Block.blockSize);
         setBackground(new Background(new BackgroundFill(Color.WHITESMOKE, null, null)));
         setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID, null, new BorderWidths(1))));
     }

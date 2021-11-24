@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Snake {
     ArrayList<Block> blocks = new ArrayList<Block>();
 
-    Block head;
+    public Block head;
 
     public Snake(int initLength, Field gameField){
         int ipx = gameField.getW() / 2;

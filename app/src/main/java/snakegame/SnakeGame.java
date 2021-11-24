@@ -9,10 +9,9 @@ import javafx.scene.layout.VBox;
 
 public class SnakeGame extends Application{
 
-    static int block_size = 5;
-    int width = 100;
-    int height = 100;
-    int il = 5;
+    private int width = 100;
+    private int height = 100;
+    private int il = 5;
 
     public static void main(String[] args) {
         launch(args);

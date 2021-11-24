@@ -3,18 +3,19 @@ package snakegame;
 import javafx.scene.shape.Rectangle;
 
 public class Block extends Rectangle{
-    int posX;
-    int posY;
-    int oldPosX;
-    int oldPosY;
-    Block previous;
+    public static int blockSize = 5;
+    public int posX;
+    public int posY;
+    public int oldPosX;
+    public int oldPosY;
+    public Block previous;
 
     public Block(int x, int y, Block p){
-        super(SnakeGame.block_size, SnakeGame.block_size);
+        super(blockSize, blockSize);
         posX = x;
         posY = y;
 
-        setTranslateX(posX * SnakeGame.block_size);
-        setTranslateY(posY * SnakeGame.block_size);
+        setTranslateX(posX * blockSize);
+        setTranslateY(posY * blockSize);
     }
 }
