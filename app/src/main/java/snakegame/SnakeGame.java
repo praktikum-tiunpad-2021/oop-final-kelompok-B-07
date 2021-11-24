@@ -19,7 +19,6 @@ public class SnakeGame extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        // TODO Auto-generated method stub
         VBox root = new VBox(10);
         root.setPadding(new Insets(10));
         Field gameField = new Field(width, height);
