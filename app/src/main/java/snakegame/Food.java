@@ -13,7 +13,7 @@ public class Food extends Rectangle{
         this.posY = y;
 
         setTranslateX(posX * Block.blockSize);
-        setTranslateX(posY * Block.blockSize);
+        setTranslateY(posY * Block.blockSize);
 
         setFill(Color.GREEN);
         setStroke(Color.BLACK);
