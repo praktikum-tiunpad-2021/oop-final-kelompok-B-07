@@ -14,9 +14,9 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 | 140810200066  | Muthia Azzahra |
 
 ## Change log
-- **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
-   -  Short changes 1
-   - Short changes 2
+- **[Sprint Planning](changelog/sprint-planning.md) - (16/11/2021)** 
+   -  Diskusi awal
+   - perencanaan changelog
 
 - **[Sprint 1](changelog/sprint-1.md) - (date from 16/11/2021 to 22/11/2021)** 
    - Make a window
