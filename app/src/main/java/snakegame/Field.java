@@ -9,8 +9,9 @@ import javafx.scene.paint.Color;
 public class Field extends Pane{
     private  int w;
     private  int h;
-    private  int score = 0;
     private Food f;
+
+    private Score cscore = new Score();
 
     ArrayList<Block> blocks = new ArrayList<Block>();
     Snake snake;
@@ -36,11 +37,25 @@ public class Field extends Pane{
         for(Block b:blocks){
             b.update();
         }
+
+        if(isEaten(f)){
+            // score++;
+            cscore.increaseScore();
+            generateFood();
+            //nambah panjang (add block baru)
+            addNewBlock();
+        }
     }
 
     private void addBlock(Block b){
         getChildren().add(b);
         blocks.add(b);
+    }
+
+    public void addNewBlock(){
+        Block b = new Block(snake.getTail().getOldPosX(), snake.getTail().getOldPosY(), snake.getTail(), this);
+        snake.setTail(b);
+        addBlock(b);
     }
 
     public void generateFood() {
@@ -54,6 +69,13 @@ public class Field extends Pane{
 
     }
 
+    public boolean isEaten(Food f){
+        if(f == null){
+            return false;
+        }
+        return f.getPosX() == snake.getHead().getPosX() && f.getPosY() == snake.getHead().getPosY();
+    } 
+
     public int getW(){
         return w;
     }
@@ -62,7 +84,11 @@ public class Field extends Pane{
         return h;
     }
 
-    public int getScore() {
-        return this.score;
+    public Score getCscore() {
+        return this.cscore;
     }
+
+    // public int getScore() {
+    //     return this.score;
+    // }
 }

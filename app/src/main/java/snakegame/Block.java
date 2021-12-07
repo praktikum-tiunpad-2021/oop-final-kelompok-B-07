@@ -11,7 +11,7 @@ public class Block extends Rectangle{
     private int oldPosY;
     private Block previous;
 
-    public Block(int x, int y, Block p){
+    public Block(int x, int y, Block p, Field gameField){
         super(blockSize, blockSize);
         posX = x;
         posY = y;
@@ -85,5 +85,21 @@ public class Block extends Rectangle{
 
     public void setDirection(MyDirection d) {
         this.direction = d;
+    }
+
+    public int getPosX() {
+        return this.posX;
+    }
+
+    public int getPosY() {
+        return this.posY;
+    }
+
+    public int getOldPosX() {
+        return this.oldPosX;
+    }
+
+    public int getOldPosY() {
+        return this.oldPosY;
     }
 }

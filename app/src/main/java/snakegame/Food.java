@@ -19,5 +19,12 @@ public class Food extends Rectangle{
         setStroke(Color.BLACK);
     }
 
+    public int getPosX() {
+        return this.posX;
+    }
+
+    public int getPosY() {
+        return this.posY;
+    }
 
 }
