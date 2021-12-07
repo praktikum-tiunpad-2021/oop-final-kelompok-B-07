@@ -18,17 +18,19 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    -  Short changes 1
    - Short changes 2
 
-- **[Sprint 1](changelog/sprint-1.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+- **[Sprint 1](changelog/sprint-1.md) - (date from 16/11/2021 to 22/11/2021)** 
+   - Make a window
+   - Creating 5 block snake
 
-- **[Sprint 2](changelog/sprint-2.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+- **[Sprint 2](changelog/sprint-2.md) - (date from 23/11/2021 to 30/11/2021)** 
+   - Generate random food
+   - Create snake movement
    
-- **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+- **[Sprint 3](changelog/sprint-3.md) - (date from 01/12/2021 to 07/12/2021)** 
+   - Increase Snake Length when eating
+   - Game over
+   - Highscore
+   - Leaderboard
 
 ## Running The App
 
