@@ -184,6 +184,7 @@ public class SnakeGame extends Application{
             }
             if (e.getCode().equals(KeyCode.SPACE)) {
                 isRunning = !isRunning;
+                pauseText.setVisible(!isRunning);
             }
             if (e.getCode().equals(KeyCode.SHIFT)){
                 spd = 20;
