@@ -76,25 +76,25 @@ public class Score {
             while (line != null) {
                 // Baca per baris
                 line = reader.readLine();
-                // Ini ada untuk error handling
+                // Untuk error handling
                 if (line == null)
                     break;
-                // Gabunging barisnya
+                // Menggabungkan baris
                 allLines = allLines.concat("\n" + line);
             }
 
             // return String yang persis seperti isi dari highscore.dat
             return allLines;
         }
-        // Kalau highscore.dat nya gaada
+        // Jika highscore.dat nya tidak ada
         catch (Exception e) {
             return "0\n0\n0\n0\n0\n0\n0\n0\n0\n0";
         } finally {
             try {
-                // Tutup readernya
+                // Menutup readernya
                 if (reader != null)
                     reader.close();
-            } // Kalau terjadi exception
+            } // Jika terjadi exception
             catch (IOException e) {
                 e.printStackTrace();
             }
@@ -122,10 +122,10 @@ public class Score {
             // Sort array listnya
             Collections.sort(list);
 
-            // Balikin biar jadi descending
+            // Me-reverse agar jadi descending
             Collections.reverse(list);
 
-            // Tulis ke highscore.dat, score yang udah diurutin
+            // Tulis ke highscore.dat, score yang sudah diurutkan
             writeFile = new FileWriter("src/main/resources/highscore.dat");
             writer = new BufferedWriter(writeFile);
 
@@ -133,11 +133,11 @@ public class Score {
 
             // Nantinya akan hanya 10 skor teratas yang ditulis kembali
             for (int i = 0; i < 10; i++) {
-                // Ini untuk mengisi nilai lainnya 0
+                // Ini untuk mengisi nilai lainnya jadi 0
                 if (i > size - 1) {
                     String def = "0";
                     writer.write(def);
-                } else { // Ambil satu satu dari list
+                } else { // Mengambil satu-satu dari list
                     String str = String.valueOf(list.get(i));
                     writer.write(str);
                 }
@@ -149,13 +149,13 @@ public class Score {
             return;
         } finally {
             try {
-                // Tutup readernya
+                // Menutup readernya
                 if (reader != null)
                     reader.close();
-                // Tutup writer
+                // Menutup writer
                 if (writer != null)
                     writer.close();
-            } // Kalau terjadi exception
+            } // Jika terjadi exception
             catch (IOException e) {
                 return;
             }
