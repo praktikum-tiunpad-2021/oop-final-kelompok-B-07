@@ -18,7 +18,7 @@
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
 | 2.1 | Generate random food | Muthia | DONE |
-| 2.2 | Create snake movement | Mahardika | DONE |
+| 2.2 | Create snake movement| Mahardika | DONE |
 
 ## Retrospective 
 
