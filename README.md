@@ -34,11 +34,15 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Running The App
 
-TO;DO with steps
+Jalankan file utama dengan perintah :
+gradle run
+
+Tombol keyboard yang digunakan pada aplikasi :
+- Gunakan tombol spasi untuk memulai dan mem-pause permainan
+- Gunakan tombol panah atas, kanan, kiri, bawah untuk menggerakkan ular pada permainan
+- Gunakan tombol shift untuk mempercepat gerak ular pada permainan
 
 ## Classes Used
-
-TO;DO
 
 https://user-images.githubusercontent.com/66240799/144626575-097e3c89-1165-4f45-998c-92f90c213e1f.jpg
 ![UML project oop](https://user-images.githubusercontent.com/66240799/144626575-097e3c89-1165-4f45-998c-92f90c213e1f.jpg)
@@ -46,4 +50,8 @@ https://user-images.githubusercontent.com/66240799/144626575-097e3c89-1165-4f45-
 
 ## Notable Assumption and Design App Details
 
-TO;DO
+Desain Aplikasi
+   - Tema warna default adalah putih (White).
+   - Makanan ular akan muncul pada tempat yang random
+   - Jika ular menabrak dinding atau menabrak tubuhnya sendiri, maka game akan selesai.
+   - Ketika game selesai, maka akan muncul scorenya (setiap ular memakan makanannya, score bertambah 40 poin)
